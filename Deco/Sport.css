@@ -9,6 +9,9 @@ body{       font-weight: bold; /* Texte en gras par défaut */
     width:100% ;
     margin: auto;
     padding: auto;
+    font-family :'Calibri Light', Calibri, sans-serif;
+    
+    ; /* Police  pour tout le texte */
 }
 
 /*Phase 2 , header*/
@@ -97,4 +100,10 @@ footer nav a {
     text-decoration: none; /* Supprime le soulignement */
     font-weight: bold; /* Texte en gras */
     transition: color 0.3s ease; /* Effet de transition pour les liens */
+}
+
+
+/*text-decoration-skip-ink: none pour éviter les sauts du soulignement autour des émojis. */
+a, p, h1, h2 {
+    text-decoration-skip-ink: none;
 }
