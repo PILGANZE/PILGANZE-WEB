@@ -6,7 +6,9 @@
 /* Style général du corps de la page */
 
 body {
-    font-family:'Cursive', sans-serif; /* Police Trebuchet MS pour tout le texte */
+    font-family :'Calibri Light', Calibri, sans-serif;
+    
+    ; /* Police  pour tout le texte */
 
     max-width: 100%; /* Adaptabilité */
     font-weight: bold; /* Texte en gras par défaut */
@@ -104,3 +106,9 @@ footer nav img:hover {
     transform: scale(1.1); /* Agrandit légèrement l'icône */
     opacity: 0.8; /* Réduit l'opacité au survol */
 }
+
+/*text-decoration-skip-ink: none pour éviter les sauts du soulignement autour des émojis. */
+a, p, h1, h2 {
+    text-decoration-skip-ink: none;
+}
+
