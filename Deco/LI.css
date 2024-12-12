@@ -7,8 +7,9 @@
 
 body{
 
-font-family: 'Cursive', sans-serif; /* Police*/
-
+    font-family :'Calibri Light', Calibri, sans-serif;
+    
+    ; /* Police  pour tout le texte */
 max-width: 100%; /* Adaptabilité */
 
 font-weight: bold; /* Texte en gras. */
@@ -110,4 +111,8 @@ footer nav img:hover {
     opacity: 0.8; /* Réduit l'opacité au survol */
 }
 
+/*text-decoration-skip-ink: none pour éviter les sauts du soulignement autour des émojis. */
+a, p, h1, h2 {
+    text-decoration-skip-ink: none;
+}
 
