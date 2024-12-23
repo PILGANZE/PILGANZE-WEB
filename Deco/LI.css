@@ -1,0 +1,118 @@
+/* Style pour la page des listes. */
+
+
+
+
+/* Style pour l'élément body */
+
+body{
+
+    font-family :'Calibri Light', Calibri, sans-serif;
+    
+    ; /* Police  pour tout le texte */
+max-width: 100%; /* Adaptabilité */
+
+font-weight: bold; /* Texte en gras. */
+
+max-height: 100%; /* Adaptabilité  hauteur.*/
+
+
+}
+
+
+/* Phase de l'header. */
+
+
+/* Style d'header. */
+
+header {    box-sizing: border-box; /* Simplifier l'affichage. */
+    max-height: 100%; /* Adaptabilité  hauteur.*/
+
+
+    background: #00CCCB;/* Dégradé. */
+    color: white;
+    padding: 20px;
+    max-width: 100%; /* Adaptabilité */}
+
+
+/*Style pour l'h1 du header.*/
+
+header h1 {
+    font-size: 2em; /* Taille du texe*/
+    
+    text-decoration: underline; /*  Soulignement.*/
+
+    text-align:justify;   /*  Alignement.*/
+
+}
+
+
+/*Phase 2 : header.*/
+
+
+/*Style pour le main .*/
+
+
+main {
+    max-height: 100%; /* Adaptabilité  hauteur.*/
+
+
+    color: black; /* Texte en noir */
+    line-height: 1.6; /* Espacement entre les lignes */
+    text-align: justify; /* Justification du texte */
+}
+
+
+/*Style pour les liens du main .*/
+
+main a:hover {
+    color: red; /* Change la couleur du lien au survol */
+}
+
+
+/*Phase 3 footer.*/
+
+footer {
+   background-color:  #00CCCB  ;  
+   color: white;
+position: relative;
+    bottom: -400px;
+    box-sizing: border-box; /* Simplifier l'affichage. */
+    max-height: 100%; /* Adaptabilité  hauteur.*/
+
+
+
+    max-width: 100%; /* Adaptabilité */
+}    
+
+
+
+ /* Titre h2 du footer. */
+footer h2{      text-decoration: underline;
+}
+
+
+
+ /* Images et liens .*/
+footer nav a {
+    margin: 0 15px; /* Espacement horizontal entre les liens */
+}
+
+
+footer nav img {
+    width: 50px; /* Taille des icônes */
+    height: 50px; /* Conserve le ratio */
+    border-radius: 30%; /* Coins arrondis */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Effet au survol */
+}
+
+footer nav img:hover {
+    transform: scale(1.1); /* Agrandit légèrement l'icône */
+    opacity: 0.8; /* Réduit l'opacité au survol */
+}
+
+/*text-decoration-skip-ink: none pour éviter les sauts du soulignement autour des émojis. */
+a, p, h1, h2 {
+    text-decoration-skip-ink: none;
+}
+

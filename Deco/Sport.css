@@ -1,0 +1,109 @@
+/* Style pour la liste de sport . */
+
+
+
+/* Style pour le body . */
+
+
+body{       font-weight: bold; /* Texte en gras par défaut */
+    width:100% ;
+    margin: auto;
+    padding: auto;
+    font-family :'Calibri Light', Calibri, sans-serif;
+    
+    ; /* Police  pour tout le texte */
+}
+
+/*Phase 2 , header*/
+
+
+header{
+
+    
+        background-color:red; /* Fond orange */
+        text-align: left; /* Alignement à gauche */
+        padding: 20px; /* Espacement interne */
+        box-sizing: border-box; /* Inclut le padding dans la largeur */
+        max-height: 100%; /* Adaptabilité  hauteur.*/
+        color: white ; /*Police*/
+        text-decoration: underline;
+
+    }
+
+
+/* Contenu principal */
+main {
+    color: black; /* Texte en noir */
+    max-width: 100%; /* Adaptabilité */    
+    line-height: 1.6; /* Espacement entre les lignes */
+    text-align: justify; /* Justification du texte */
+    max-height: 100%; /* Adaptabilité  hauteur.*/
+
+}
+
+
+main h2 {
+    margin: 15px 0; /* Espacement vertical pour le titre */
+    text-decoration: underline; /* Souligne le titre */
+}
+
+
+main p {
+    padding: 10px; /* Espacement interne */
+    font-size: 1.1em; /* Taille légèrement agrandie pour le confort de lecture */
+    text-decoration: underline; /* Soulignement*/
+}
+
+
+main a {
+    color:red; /* Couleur du lien en magenta */
+    text-decoration: none; /* Supprime le soulignement */
+    font-weight: bold; /* Texte en gras */
+    transition: color 0.3s ease; /* Effet de transition pour les liens */
+}
+
+
+
+main a:hover {
+    color: blue; /* Change la couleur du lien au survol */
+}
+
+
+
+/* Change la couleur du lien visité */
+li a:visited {
+    color: green;
+  }
+  
+
+
+
+
+
+
+/* Pied de page */
+footer {
+    background-color: red; /* Fond orange */
+    padding: 20px; /* Espacement interne */
+    color: white; /* Texte en blanc */
+    text-align: left; /* Alignement à gauche */
+    margin-top: 50px; /* Espacement au-dessus du footer */
+    box-sizing: border-box; /* Inclut le padding dans la largeur */
+    max-width: 100%; /* Adaptabilité */
+    max-height: 100%; /* Adaptabilité  hauteur.*/
+}
+
+footer nav a {
+
+
+    color:white; /* Couleur du lien en magenta */
+    text-decoration: none; /* Supprime le soulignement */
+    font-weight: bold; /* Texte en gras */
+    transition: color 0.3s ease; /* Effet de transition pour les liens */
+}
+
+
+/*text-decoration-skip-ink: none pour éviter les sauts du soulignement autour des émojis. */
+a, p, h1, h2 {
+    text-decoration-skip-ink: none;
+}
